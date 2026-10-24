@@ -1,0 +1,21 @@
+# This overrides the root .dockerignore for Dockerfile.coolify. Both web/ and
+# .git/ must be available: the frontend is built here and Git supplies the version.
+/build/
+/bin/
+/tmp/
+/memos
+/memos.exe
+coverage.out
+**/node_modules/
+**/dist/
+**/.pnpm-store/
+/.worktrees/
+/docs/
+/.github/
+*.md
+**/.env
+**/.env.*
+/.idea/
+/.vscode/
+/.claude/
+**/.DS_Store

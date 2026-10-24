@@ -151,6 +151,8 @@ Black-box service tests live in `server/api/test/`, unit tests next to the code.
   `github.com/usememos/memos/internal/version.Version` through `-ldflags`.
 - Docker excludes `.git`; pass `--build-arg VERSION="$(bash scripts/release_version.sh development-version)"` and
   `--build-arg COMMIT="$(git rev-parse HEAD)"` when building locally (build frontend assets first).
+- For direct builds of the NemBestil fork in Coolify, use `scripts/Dockerfile.coolify`; it builds the frontend and derives
+  its development version from Git. Optional Compose configuration and existing-volume settings are in `scripts/README.md`.
 
 - Backend CI: Go 1.27.2, `go mod tidy -go=1.27.2`, `go fix -diff ./...`, golangci-lint v2.14.0 (including goimports), test groups
   `store`, `server`, `internal`, `other` (`cmd`, `core`, `markdown`, `filter`, `provider`, `proto`).
