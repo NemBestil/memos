@@ -397,9 +397,7 @@ describe("App sidebar logo", () => {
     const calendar = navigation.getByRole("link", { name: "common.calendar" });
     expect(calendar).toHaveAttribute("href", "/calendar");
     expectCollapsedNavPill(calendar, "common.calendar");
-    const map = navigation.getByRole("link", { name: "common.map" });
-    expect(map).toHaveAttribute("href", "/map");
-    expectCollapsedNavPill(map, "common.map");
+    expect(navigation.queryByRole("link", { name: "common.map" })).not.toBeInTheDocument();
     expect(navigation.queryByRole("link", { name: "common.about" })).not.toBeInTheDocument();
     expect(navigation.queryByRole("link", { name: "common.attachments" })).not.toBeInTheDocument();
     const signIn = screen.getByRole("link", { name: "common.sign-in-to-memos" });
@@ -507,10 +505,7 @@ describe("App sidebar logo", () => {
     expect(screen.getByRole("link", { name: "common.sign-in-to-memos" }).closest("footer")).not.toBeNull();
   });
 
-  it.each([
-    ["/calendar/2026/09", "common.calendar"],
-    ["/map", "common.map"],
-  ])("marks the reading view active for a guest on %s", (path, label) => {
+  it.each([["/calendar/2026/09", "common.calendar"]])("marks the reading view active for a guest on %s", (path, label) => {
     authState.currentUser = undefined;
     render(
       <MemoryRouter initialEntries={[path]}>

@@ -10,7 +10,6 @@ import {
   LibraryIcon,
   ListIcon,
   type LucideIcon,
-  MapIcon,
   MenuIcon,
   PaperclipIcon,
   SearchIcon,
@@ -271,7 +270,6 @@ const RouteSidebarContent = () => {
 /** Collection views beside Timeline. Attachments is a library of the user's own files, so guests get the reading views only. */
 const NAV_DESTINATIONS = [
   { kind: "calendar", labelKey: "common.calendar", pathname: ROUTES.CALENDAR, icon: CalendarDaysIcon, signedInOnly: false },
-  { kind: "map", labelKey: "common.map", pathname: ROUTES.MAP, icon: MapIcon, signedInOnly: false },
   { kind: "attachments", labelKey: "common.attachments", pathname: ROUTES.ATTACHMENTS, icon: PaperclipIcon, signedInOnly: true },
 ] as const;
 
