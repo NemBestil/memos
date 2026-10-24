@@ -3,13 +3,15 @@
 # Build directly from a Git checkout, including the frontend normally built by CI.
 FROM --platform=$BUILDPLATFORM node:24-alpine AS frontend
 WORKDIR /frontend-build
+ENV CI=true pnpm_config_store_dir=/pnpm/store
 RUN npm install --global pnpm@11.0.1
 COPY web/package.json web/pnpm-lock.yaml web/pnpm-workspace.yaml ./web/
 COPY web/patches ./web/patches
 RUN --mount=type=cache,target=/pnpm/store \
-    cd web && pnpm install --frozen-lockfile --store-dir=/pnpm/store
+    cd web && pnpm install --frozen-lockfile
 COPY web ./web
-RUN cd web && pnpm release
+RUN --mount=type=cache,target=/pnpm/store \
+    cd web && pnpm release
 
 FROM --platform=$BUILDPLATFORM golang:1.27.2-alpine AS backend
 WORKDIR /backend-build
