@@ -1,24 +1,7 @@
 {
   "about": {
-    "documents": "Εγγραφα",
-    "github-repository": "GitHub Repo",
-    "official-website": "Επίσημη Ιστοσελίδα",
-    "api-docs": "API Έγγραφα",
-    "api-docs-note": "Αναφορά REST και gRPC",
-    "build": "Δημιουργία",
     "demo": "Επίδειξη",
-    "description": "Ένας χώρος ανοιχτού κώδικα στον δικό σας διακομιστή για τις σημειώσεις, τις ιδέες και τις καθημερινές σας σκέψεις.",
-    "distribution": "Διανομή",
-    "documents-note": "Ανάπτυξη, διαμόρφωση και χρήση του Memos",
-    "github-repository-note": "Πηγή, ζητήματα και εκδόσεις",
-    "official-website-note": "Η αρχική σελίδα του έργου",
-    "powered-by": "Με την υποστήριξη του Memos",
-    "project": "Έργο",
-    "project-links": "Σύνδεσμοι έργου",
-    "sponsor": "Υποστηρίξτε το Memos",
-    "sponsor-note": "Υποστηρίξτε το έργο στο GitHub",
-    "web-clipper": "Web Clipper",
-    "web-clipper-platforms": "Chrome + Firefox"
+    "powered-by": "Με την υποστήριξη του Memos"
   },
   "auth": {
     "create-your-account": "Δημιουργήστε τον λογαριασμό σας",
@@ -163,7 +146,6 @@
     "update": "Εκσυγχρονίζω",
     "user": "Μεταχειριζόμενος",
     "username": "Όνομα χρήστη",
-    "version": "Εκδοχή",
     "visibility": "Ορατότητα",
     "views": "Προβολές",
     "yourself": "Σύ ο ίδιος",

@@ -18,25 +18,8 @@
     "open-memo": "Open memo"
   },
   "about": {
-    "api-docs": "API Docs",
-    "api-docs-note": "REST and gRPC reference",
-    "build": "Build",
     "demo": "Demo",
-    "description": "Memos is an open-source, self-hosted note-taking app that brings your everyday thoughts together in a personal timeline. Your data stays yours, and you choose what to keep private or share.",
-    "distribution": "Distribution",
-    "documents": "Documents",
-    "documents-note": "Deploy, configure, and use Memos",
-    "github-repository": "GitHub Repo",
-    "github-repository-note": "Source, issues, and releases",
-    "official-website": "Official Website",
-    "official-website-note": "The project homepage",
-    "powered-by": "Powered by Memos",
-    "project": "Project",
-    "project-links": "Project links",
-    "sponsor": "Sponsor Memos",
-    "sponsor-note": "Support the project on GitHub",
-    "web-clipper": "Web Clipper",
-    "web-clipper-platforms": "Chrome + Firefox"
+    "powered-by": "Powered by Memos"
   },
   "auth": {
     "admin-sign-in": "Administrator sign-in",
@@ -231,7 +214,6 @@
     "update": "Update",
     "user": "User",
     "username": "Username",
-    "version": "Version",
     "visibility": "Visibility",
     "view-all": "View all",
     "views": "Views",

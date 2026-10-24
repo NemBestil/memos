@@ -1,24 +1,7 @@
 {
   "about": {
-    "documents": "Dokumentumok",
-    "github-repository": "GitHub repó",
-    "official-website": "Hivatalos weboldal",
-    "api-docs": "API Dokumentációk",
-    "api-docs-note": "REST és gRPC referencia",
-    "build": "Build",
     "demo": "Demó",
-    "description": "Nyílt forráskódú, saját szerveren futó hely a jegyzeteidnek, ötleteidnek és mindennapi gondolataidnak.",
-    "distribution": "Terjesztés",
-    "documents-note": "Telepítés, konfigurálás és használat Memos",
-    "github-repository-note": "Forráskód, problémák és kiadások",
-    "official-website-note": "A projekt honlapja",
-    "powered-by": "A Memos működteti",
-    "project": "Projekt",
-    "project-links": "Projekt linkek",
-    "sponsor": "A Memos támogatása",
-    "sponsor-note": "Támogasd a projektet a GitHubon",
-    "web-clipper": "Web Clipper",
-    "web-clipper-platforms": "Chrome + Firefox"
+    "powered-by": "A Memos működteti"
   },
   "auth": {
     "create-your-account": "Fiók létrehozása",
@@ -123,7 +106,6 @@
     "update": "Frissítés",
     "user": "Felhasználó",
     "username": "Felhasználónév",
-    "version": "Verzió",
     "visibility": "Láthatóság",
     "views": "Nézetek",
     "yourself": "Magad",

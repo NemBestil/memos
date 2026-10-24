@@ -1,24 +1,7 @@
 {
   "about": {
-    "api-docs": "API-dokumentasjon",
-    "api-docs-note": "Referanse for REST og gRPC",
-    "build": "Bygg",
     "demo": "Demo",
-    "description": "Ein stad for notata, ideane og kvardagstankane dine, med open kjeldekode og drift på eigen tenar.",
-    "distribution": "Distribusjon",
-    "documents": "Dokumentasjon",
-    "documents-note": "Set opp, tilpass og bruk Memos",
-    "github-repository": "Kodelager på GitHub",
-    "github-repository-note": "Kjeldekode, saker og utgåver",
-    "official-website": "Offisiell nettstad",
-    "official-website-note": "Heimesida til prosjektet",
-    "powered-by": "Drive av Memos",
-    "project": "Prosjekt",
-    "project-links": "Prosjektlenkjer",
-    "sponsor": "Støtt Memos",
-    "sponsor-note": "Støtt prosjektet på GitHub",
-    "web-clipper": "Memos-nettklippar",
-    "web-clipper-platforms": "Chrome + Firefox"
+    "powered-by": "Drive av Memos"
   },
   "attachment-details": {
     "actions": {
@@ -208,7 +191,6 @@
     "update": "Oppdater",
     "user": "Brukar",
     "username": "Brukarnamn",
-    "version": "Versjon",
     "view-all": "Vis alle",
     "views": "Visingar",
     "visibility": "Synlegheit",

@@ -1,24 +1,7 @@
 {
   "about": {
-    "documents": "Документи",
-    "github-repository": "GitHub Репо",
-    "official-website": "Оффициал Вебсите",
-    "api-docs": "API Документација",
-    "api-docs-note": "Референца за REST и gRPC",
-    "build": "Израда",
     "demo": "Демо",
-    "description": "Простор отвореног кода на сопственом серверу за ваше белешке, идеје и свакодневне мисли.",
-    "distribution": "Дистрибуција",
-    "documents-note": "Имплементација, конфигурисање и коришћење Memos",
-    "github-repository-note": "Изворни код, проблеми и издања",
-    "official-website-note": "Почетна страница пројекта",
-    "powered-by": "Покреће Memos",
-    "project": "Пројекат",
-    "project-links": "Линкови пројекта",
-    "sponsor": "Подржите Memos",
-    "sponsor-note": "Подржите пројекат на GitHub-у",
-    "web-clipper": "Web Clipper",
-    "web-clipper-platforms": "Chrome + Firefox"
+    "powered-by": "Покреће Memos"
   },
   "auth": {
     "create-your-account": "Креирајте свој налог",
@@ -163,7 +146,6 @@
     "update": "Ажурирај",
     "user": "Корисник",
     "username": "Корисничко име",
-    "version": "Версион",
     "visibility": "Видљивост",
     "views": "Прикази",
     "yourself": "Себе",

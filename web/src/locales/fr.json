@@ -1,24 +1,7 @@
 {
   "about": {
-    "documents": "Documents",
-    "github-repository": "Dépôt GitHub",
-    "official-website": "Site officiel",
-    "api-docs": "Documentation API",
-    "api-docs-note": "Référence REST et gRPC",
-    "build": "Compiler",
     "demo": "Démo",
-    "description": "Un espace libre et auto-hébergé pour vos notes, vos idées et vos pensées du quotidien.",
-    "distribution": "Distribution",
-    "documents-note": "Déployer, configurer et utiliser Memos",
-    "github-repository-note": "Code source, problèmes et versions",
-    "official-website-note": "Page d'accueil du projet",
-    "powered-by": "Propulsé par Memos",
-    "project": "Projet",
-    "project-links": "Liens du projet",
-    "sponsor": "Soutenir Memos",
-    "sponsor-note": "Soutenir le projet sur GitHub",
-    "web-clipper": "Web Clipper",
-    "web-clipper-platforms": "Chrome + Firefox"
+    "powered-by": "Propulsé par Memos"
   },
   "auth": {
     "create-your-account": "Créez votre compte",
@@ -123,7 +106,6 @@
     "update": "Mettre à jour",
     "user": "Utilisateur",
     "username": "Nom d'utilisateur",
-    "version": "Version",
     "visibility": "Visibilité",
     "views": "Vues",
     "yourself": "Vous-même",

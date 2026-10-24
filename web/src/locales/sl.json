@@ -1,24 +1,7 @@
 {
   "about": {
-    "documents": "Dokumenti",
-    "github-repository": "GitHub Repo",
-    "official-website": "Uradna stran",
-    "api-docs": "API Dokumenti",
-    "api-docs-note": "Referenca za REST in gRPC",
-    "build": "Gradnja",
     "demo": "Demo",
-    "description": "Odprtokodni prostor na lastnem strežniku za vaše zapiske, ideje in vsakodnevne misli.",
-    "distribution": "Distribucija",
-    "documents-note": "Uvajanje, konfiguriranje in uporaba Memos",
-    "github-repository-note": "Izvorna koda, težave in izdaje",
-    "official-website-note": "Domača stran projekta",
-    "powered-by": "Poganja Memos",
-    "project": "Projekt",
-    "project-links": "Povezave do projektov",
-    "sponsor": "Podprite Memos",
-    "sponsor-note": "Podprite projekt na GitHubu",
-    "web-clipper": "Web Clipper",
-    "web-clipper-platforms": "Chrome + Firefox"
+    "powered-by": "Poganja Memos"
   },
   "auth": {
     "create-your-account": "Ustvari nov račun",
@@ -123,7 +106,6 @@
     "update": "Posodobi",
     "user": "Uporabnik",
     "username": "Uporabniško ime",
-    "version": "Verzija",
     "visibility": "Vidnost",
     "views": "Pogledi",
     "yourself": "Ti",

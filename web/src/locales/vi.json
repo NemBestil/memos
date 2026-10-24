@@ -1,24 +1,7 @@
 {
   "about": {
-    "documents": "Tài liệu",
-    "github-repository": "Kho GitHub",
-    "official-website": "Trang web chính thức",
-    "api-docs": "API Tài liệu",
-    "api-docs-note": "Tài liệu tham khảo REST và gRPC",
-    "build": "Xây dựng",
     "demo": "Bản demo",
-    "description": "Một không gian mã nguồn mở, tự lưu trữ cho ghi chú, ý tưởng và suy nghĩ hằng ngày của bạn.",
-    "distribution": "Phân phối",
-    "documents-note": "Triển khai, cấu hình và sử dụng Memos",
-    "github-repository-note": "Mã nguồn, sự cố và bản phát hành",
-    "official-website-note": "Trang chủ dự án",
-    "powered-by": "Được cung cấp bởi Memos",
-    "project": "Dự án",
-    "project-links": "Liên kết dự án",
-    "sponsor": "Tài trợ Memos",
-    "sponsor-note": "Ủng hộ dự án trên GitHub",
-    "web-clipper": "Web Clipper",
-    "web-clipper-platforms": "Chrome + Firefox"
+    "powered-by": "Được cung cấp bởi Memos"
   },
   "auth": {
     "create-your-account": "Tạo tài khoản của bạn",
@@ -123,7 +106,6 @@
     "update": "Cập nhật",
     "user": "Người dùng",
     "username": "Tên người dùng",
-    "version": "Phiên bản",
     "visibility": "Quyền xem",
     "views": "Các chế độ xem",
     "yourself": "Bản thân",

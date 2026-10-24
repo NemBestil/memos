@@ -1,24 +1,7 @@
 {
   "about": {
-    "documents": "दस्तऐवज",
-    "github-repository": "GitHub रेपॉजिटरी",
-    "official-website": "अधिकृत वेबसाइट",
-    "api-docs": "API डॉक्स",
-    "api-docs-note": "REST आणि gRPC संदर्भ",
-    "build": "बिल्ड",
     "demo": "डेमो",
-    "description": "तुमच्या नोंदी, कल्पना आणि रोजच्या विचारांसाठी एक मुक्त-स्रोत, स्व-होस्ट केलेली जागा.",
-    "distribution": "वितरण",
-    "documents-note": "Memos डिप्लॉय करा, कॉन्फिगर करा आणि वापरा",
-    "github-repository-note": "सोर्स, इश्यूज आणि रिलीज",
-    "official-website-note": "प्रोजेक्टचे मुख्यपृष्ठ",
-    "powered-by": "Memos द्वारे समर्थित",
-    "project": "प्रोजेक्ट",
-    "project-links": "प्रोजेक्ट लिंक्स",
-    "sponsor": "Memos ला प्रायोजित करा",
-    "sponsor-note": "GitHub वर प्रकल्पाला पाठिंबा द्या",
-    "web-clipper": "वेब क्लिपर",
-    "web-clipper-platforms": "क्रोम + फायरफॉक्स"
+    "powered-by": "Memos द्वारे समर्थित"
   },
   "auth": {
     "create-your-account": "तुमचे खाते तयार करा",
@@ -123,7 +106,6 @@
     "update": "अपडेट करा",
     "user": "वापरकर्ता",
     "username": "वापरकर्तानाव",
-    "version": "आवृत्ती",
     "visibility": "दृश्यमानता",
     "views": "दृश्ये",
     "yourself": "स्वतः",

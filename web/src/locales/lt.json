@@ -1,24 +1,7 @@
 {
   "about": {
-    "documents": "Dokumentai",
-    "github-repository": "GitHub atpirkimas",
-    "official-website": "Oficiali svetainė",
-    "api-docs": "API Dokumentai",
-    "api-docs-note": "REST ir gRPC nuoroda",
-    "build": "Sukūrimas",
     "demo": "Demonstracija",
-    "description": "Atvirojo kodo erdvė jūsų serveryje užrašams, idėjoms ir kasdienėms mintims.",
-    "distribution": "Platinimas",
-    "documents-note": "Diegimas, konfigūravimas ir naudojimas Memos",
-    "github-repository-note": "Šaltinis, problemos ir leidimai",
-    "official-website-note": "Projekto pagrindinis puslapis",
-    "powered-by": "Sukurta Memos",
-    "project": "Projektas",
-    "project-links": "Projekto nuorodos",
-    "sponsor": "Paremkite Memos",
-    "sponsor-note": "Paremkite projektą „GitHub“",
-    "web-clipper": "„Web Clipper“",
-    "web-clipper-platforms": "„Chrome“ + „Firefox“"
+    "powered-by": "Sukurta Memos"
   },
   "auth": {
     "create-your-account": "Susikurkite paskyrą",
@@ -163,7 +146,6 @@
     "update": "Atnaujinti",
     "user": "Vartotojas",
     "username": "Vartotojo vardas",
-    "version": "Versija",
     "visibility": "Matomumas",
     "views": "Rodiniai",
     "yourself": "save",

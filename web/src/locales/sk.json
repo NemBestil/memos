@@ -1,24 +1,7 @@
 {
   "about": {
-    "documents": "dokumenty",
-    "github-repository": "GitHub Repo",
-    "official-website": "Oficiálna webová stránka",
-    "api-docs": "API Dokumentácia",
-    "api-docs-note": "Referencia REST a gRPC",
-    "build": "Zostaviť",
     "demo": "Demo",
-    "description": "Priestor s otvoreným zdrojovým kódom na vlastnom serveri pre vaše poznámky, nápady a každodenné myšlienky.",
-    "distribution": "Distribúcia",
-    "documents-note": "Nasadiť, konfigurovať a používať Memos",
-    "github-repository-note": "Zdroj, problémy a vydania",
-    "official-website-note": "Domovská stránka projektu",
-    "powered-by": "Používa systém Memos",
-    "project": "Projekt",
-    "project-links": "Odkazy na projekty",
-    "sponsor": "Sponzorovať Memos",
-    "sponsor-note": "Podporte projekt na GitHube",
-    "web-clipper": "Web Clipper",
-    "web-clipper-platforms": "Chrome + Firefox"
+    "powered-by": "Používa systém Memos"
   },
   "auth": {
     "create-your-account": "Vytvorte si účet",
@@ -163,7 +146,6 @@
     "update": "Aktualizovať",
     "user": "Používateľ",
     "username": "Používateľské meno",
-    "version": "Verzia",
     "visibility": "Viditeľnosť",
     "views": "Zobrazenia",
     "yourself": "seba",

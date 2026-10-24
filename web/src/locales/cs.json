@@ -1,24 +1,7 @@
 {
   "about": {
-    "documents": "Dokumenty",
-    "github-repository": "GitHub Repo",
-    "official-website": "Oficiální web",
-    "api-docs": "API Dokumentace",
-    "api-docs-note": "Referenční informace o REST a gRPC",
-    "build": "Sestavení",
     "demo": "Demo",
-    "description": "Prostor s otevřeným zdrojovým kódem na vlastním serveru pro vaše poznámky, nápady a každodenní myšlenky.",
-    "distribution": "Distribuce",
-    "documents-note": "Nasazení, konfigurace a použití Memos",
-    "github-repository-note": "Zdroj, problémy a verze",
-    "official-website-note": "Domovská stránka projektu",
-    "powered-by": "Vytvořeno pomocí Memos",
-    "project": "Projekt",
-    "project-links": "Odkazy na projekty",
-    "sponsor": "Sponzorovat Memos",
-    "sponsor-note": "Podpořte projekt na GitHubu",
-    "web-clipper": "Web Clipper",
-    "web-clipper-platforms": "Chrome + Firefox"
+    "powered-by": "Vytvořeno pomocí Memos"
   },
   "auth": {
     "create-your-account": "Založit nový účet",
@@ -123,7 +106,6 @@
     "update": "Aktualizovat",
     "user": "Uživatel",
     "username": "Uživatelské jméno",
-    "version": "Verze",
     "visibility": "Viditelnost",
     "views": "Zobrazení",
     "yourself": "Vy sami",

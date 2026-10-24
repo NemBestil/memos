@@ -1,24 +1,7 @@
 {
   "about": {
-    "documents": "Документи",
-    "github-repository": "GitHub Репо",
-    "official-website": "Официален сайт",
-    "api-docs": "API Документация",
-    "api-docs-note": "Справка за REST и gRPC",
-    "build": "Компилация",
     "demo": "Демо",
-    "description": "Място с отворен код на собствен сървър за вашите бележки, идеи и ежедневни мисли.",
-    "distribution": "Разпространение",
-    "documents-note": "Разгръщане, конфигуриране и използване Memos",
-    "github-repository-note": "Източник, проблеми и издания",
-    "official-website-note": "Начална страница на проекта",
-    "powered-by": "Задвижвано от Memos",
-    "project": "Проект",
-    "project-links": "Връзки към проекти",
-    "sponsor": "Спонсорирайте Memos",
-    "sponsor-note": "Подкрепете проекта в GitHub",
-    "web-clipper": "Web Clipper",
-    "web-clipper-platforms": "Chrome + Firefox"
+    "powered-by": "Задвижвано от Memos"
   },
   "auth": {
     "create-your-account": "Създайте своя акаунт",
@@ -163,7 +146,6 @@
     "update": "Актуализация",
     "user": "Потребител",
     "username": "Потребителско име",
-    "version": "Версия",
     "visibility": "Видимост",
     "views": "Изгледи",
     "yourself": "Себе си",

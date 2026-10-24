@@ -1,24 +1,7 @@
 {
   "about": {
-    "documents": "문서",
-    "github-repository": "GitHub 저장소",
-    "official-website": "공식 웹사이트",
-    "api-docs": "API 문서",
-    "api-docs-note": "REST 및 gRPC 참조",
-    "build": "빌드",
     "demo": "데모",
-    "description": "메모, 아이디어, 일상의 생각을 위한 오픈 소스 셀프 호스팅 공간입니다.",
-    "distribution": "배포",
-    "documents-note": "Memos 배포, 구성 및 사용",
-    "github-repository-note": "소스, 이슈 및 릴리스",
-    "official-website-note": "프로젝트 홈페이지",
-    "powered-by": "Memos 제공",
-    "project": "프로젝트",
-    "project-links": "프로젝트 링크",
-    "sponsor": "Memos 후원하기",
-    "sponsor-note": "GitHub에서 프로젝트 후원하기",
-    "web-clipper": "웹 클리퍼",
-    "web-clipper-platforms": "Chrome + Firefox"
+    "powered-by": "Memos 제공"
   },
   "auth": {
     "create-your-account": "계정 만들기",
@@ -123,7 +106,6 @@
     "update": "수정",
     "user": "사용자",
     "username": "유저네임",
-    "version": "버전",
     "visibility": "공개 범위",
     "views": "보기",
     "yourself": "자기 자신",

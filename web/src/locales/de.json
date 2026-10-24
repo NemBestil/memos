@@ -1,24 +1,7 @@
 {
   "about": {
-    "documents": "Dokumente",
-    "github-repository": "GitHub Repo",
-    "official-website": "Offizielle Webseite",
-    "api-docs": "API-Dokumentation",
-    "api-docs-note": "REST- und gRPC-Referenz",
-    "build": "Build",
     "demo": "Demo",
-    "description": "Ein quelloffener, selbst gehosteter Ort für deine Notizen, Ideen und alltäglichen Gedanken.",
-    "distribution": "Verteilung",
-    "documents-note": "Bereitstellen, Konfigurieren und Verwenden von Memos",
-    "github-repository-note": "Quellcode, Probleme und Releases",
-    "official-website-note": "Die Projekt-Homepage",
-    "powered-by": "Unterstützt von Memos",
-    "project": "Projekt",
-    "project-links": "Projektlinks",
-    "sponsor": "Memos unterstützen",
-    "sponsor-note": "Unterstütze das Projekt auf GitHub",
-    "web-clipper": "Web Clipper",
-    "web-clipper-platforms": "Chrome + Firefox"
+    "powered-by": "Unterstützt von Memos"
   },
   "auth": {
     "create-your-account": "Benutzerkonto anlegen",
@@ -123,7 +106,6 @@
     "update": "Update",
     "user": "Benutzer",
     "username": "Benutzername",
-    "version": "Version",
     "visibility": "Sichtbarkeit",
     "views": "Ansichten",
     "yourself": "Du selbst",

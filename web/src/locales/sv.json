@@ -1,24 +1,7 @@
 {
   "about": {
-    "documents": "Dokument",
-    "github-repository": "GitHub-lagringsplats",
-    "official-website": "Officiell webbplats",
-    "api-docs": "API Dokument",
-    "api-docs-note": "REST- och gRPC-referens",
-    "build": "Bygg",
     "demo": "Demo",
-    "description": "En plats med öppen källkod på din egen server för anteckningar, idéer och vardagstankar.",
-    "distribution": "Distribution",
-    "documents-note": "Distribuera, konfigurera och använd Memos",
-    "github-repository-note": "Källa, problem och utgåvor",
-    "official-website-note": "Projektets hemsida",
-    "powered-by": "Drivs av Memos",
-    "project": "Projekt",
-    "project-links": "Projektlänkar",
-    "sponsor": "Stöd Memos",
-    "sponsor-note": "Stöd projektet på GitHub",
-    "web-clipper": "Web Clipper",
-    "web-clipper-platforms": "Chrome + Firefox"
+    "powered-by": "Drivs av Memos"
   },
   "auth": {
     "create-your-account": "Skapa ditt konto",
@@ -123,7 +106,6 @@
     "update": "Uppdatera",
     "user": "Användare",
     "username": "Användarnamn",
-    "version": "Version",
     "visibility": "Synlighet",
     "views": "Vyer",
     "yourself": "Själv",

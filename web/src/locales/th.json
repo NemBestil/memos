@@ -1,24 +1,7 @@
 {
   "about": {
-    "documents": "เอกสาร",
-    "github-repository": "ที่เก็บ GitHub",
-    "official-website": "เว็บไซต์ทางการ",
-    "api-docs": "เอกสาร API",
-    "api-docs-note": "ข้อมูลอ้างอิง REST และ gRPC",
-    "build": "สร้าง",
     "demo": "สาธิต",
-    "description": "พื้นที่โอเพนซอร์สที่โฮสต์เองได้ สำหรับบันทึก ไอเดีย และความคิดในแต่ละวันของคุณ",
-    "distribution": "การแจกจ่าย",
-    "documents-note": "ปรับใช้ กำหนดค่า และใช้งาน Memos",
-    "github-repository-note": "ซอร์สโค้ด ปัญหา และรุ่นต่างๆ",
-    "official-website-note": "หน้าแรกของโครงการ",
-    "powered-by": "ขับเคลื่อนโดย Memos",
-    "project": "โครงการ",
-    "project-links": "ลิงก์โครงการ",
-    "sponsor": "สนับสนุน Memos",
-    "sponsor-note": "สนับสนุนโครงการบน GitHub",
-    "web-clipper": "Web Clipper",
-    "web-clipper-platforms": "Chrome + Firefox"
+    "powered-by": "ขับเคลื่อนโดย Memos"
   },
   "auth": {
     "create-your-account": "สร้างบัญชีใหม่",
@@ -123,7 +106,6 @@
     "update": "อัปเดต",
     "user": "ผู้ใช้",
     "username": "ชื่อผู้ใช้",
-    "version": "เวอร์ชั่น",
     "visibility": "การมองเห็น",
     "views": "มุมมอง",
     "yourself": "ตัวคุณ",

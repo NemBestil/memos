@@ -18,25 +18,8 @@
     "open-memo": "Notu aç"
   },
   "about": {
-    "api-docs": "API Belgeleri",
-    "api-docs-note": "REST ve gRPC başvuru kaynağı",
-    "build": "Derleme",
     "demo": "Demo",
-    "description": "Notlarınız, fikirleriniz ve günlük düşünceleriniz için kendi sunucunuzda barındırabileceğiniz açık kaynaklı bir alan.",
-    "distribution": "Dağıtım",
-    "documents": "Belgeler",
-    "documents-note": "Memos'u kurun, yapılandırın ve kullanın",
-    "github-repository": "GitHub Deposu",
-    "github-repository-note": "Kaynak kod, sorunlar ve sürümler",
-    "official-website": "Resmi Web Sitesi",
-    "official-website-note": "Projenin ana sayfası",
-    "powered-by": "Memos altyapısıyla çalışır",
-    "project": "Proje",
-    "project-links": "Proje bağlantıları",
-    "sponsor": "Memos’a sponsor olun",
-    "sponsor-note": "Projeyi GitHub üzerinden destekleyin",
-    "web-clipper": "Web Clipper",
-    "web-clipper-platforms": "Chrome + Firefox"
+    "powered-by": "Memos altyapısıyla çalışır"
   },
   "auth": {
     "admin-sign-in": "Yönetici girişi",
@@ -158,7 +141,6 @@
     "update": "Güncelle",
     "user": "Kullanıcı",
     "username": "Kullanıcı adı",
-    "version": "Sürüm",
     "visibility": "Görünürlük",
     "view-all": "Tümünü gör",
     "views": "Görünümler",

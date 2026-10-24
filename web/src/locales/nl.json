@@ -1,24 +1,7 @@
 {
   "about": {
-    "documents": "Documenten",
-    "github-repository": "GitHub Repo",
-    "official-website": "Officiële website",
-    "api-docs": "API Documentatie",
-    "api-docs-note": "REST- en gRPC-referentie",
-    "build": "Bouwen",
     "demo": "Demo",
-    "description": "Een opensourceplek op je eigen server voor je notities, ideeën en dagelijkse gedachten.",
-    "distribution": "Distributie",
-    "documents-note": "Implementeren, configureren en gebruiken van Memos",
-    "github-repository-note": "Broncode, problemen en releases",
-    "official-website-note": "De projecthomepage",
-    "powered-by": "Mogelijk gemaakt door Memos",
-    "project": "Project",
-    "project-links": "Projectlinks",
-    "sponsor": "Sponsor Memos",
-    "sponsor-note": "Steun het project op GitHub",
-    "web-clipper": "Web Clipper",
-    "web-clipper-platforms": "Chrome + Firefox"
+    "powered-by": "Mogelijk gemaakt door Memos"
   },
   "auth": {
     "create-your-account": "Maak je account",
@@ -123,7 +106,6 @@
     "update": "Bijwerken",
     "user": "Gebruiker",
     "username": "Gebruikersnaam",
-    "version": "Versie",
     "visibility": "Zichtbaarheid",
     "views": "Weergaven",
     "yourself": "Jijzelf",

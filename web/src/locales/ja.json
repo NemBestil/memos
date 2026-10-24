@@ -1,24 +1,7 @@
 {
   "about": {
-    "api-docs": "APIドキュメント",
-    "api-docs-note": "RESTとgRPCのリファレンス",
-    "build": "ビルド",
     "demo": "デモ",
-    "description": "メモやアイデア、日々の思いを残すための、オープンソースでセルフホストできる場所。",
-    "distribution": "ディストリビューション",
-    "documents": "ドキュメント",
-    "documents-note": "Memosのデプロイ・設定・使い方",
-    "github-repository": "GitHubリポジトリ",
-    "github-repository-note": "ソースコード・Issue・リリース",
-    "official-website": "公式サイト",
-    "official-website-note": "プロジェクトのホームページ",
-    "powered-by": "Powered by Memos",
-    "project": "プロジェクト",
-    "project-links": "プロジェクトリンク",
-    "sponsor": "Memos を支援",
-    "sponsor-note": "GitHubでプロジェクトを支援",
-    "web-clipper": "Web Clipper",
-    "web-clipper-platforms": "Chrome + Firefox"
+    "powered-by": "Powered by Memos"
   },
   "auth": {
     "admin-sign-in": "管理者サインイン",
@@ -129,7 +112,6 @@
     "update": "上書き",
     "user": "ユーザー",
     "username": "ユーザーネーム",
-    "version": "バージョン",
     "visibility": "公開範囲",
     "views": "ビュー",
     "yourself": "あなた自身の",

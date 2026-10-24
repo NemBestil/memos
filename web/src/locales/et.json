@@ -1,24 +1,7 @@
 {
   "about": {
-    "documents": "Dokumendid",
-    "github-repository": "GitHub Repo",
-    "official-website": "Ametlik veebisait",
-    "api-docs": "API Dokumendid",
-    "api-docs-note": "REST ja gRPC viide",
-    "build": "Ehitus",
     "demo": "Demo",
-    "description": "Avatud lähtekoodiga ruum sinu serveris märkmete, ideede ja igapäevaste mõtete jaoks.",
-    "distribution": "Levitamine",
-    "documents-note": "Juurutamine, seadistamine ja kasutamine Memos",
-    "github-repository-note": "Lähtekood, probleemid ja versioonid",
-    "official-website-note": "Projekti avaleht",
-    "powered-by": "Põhineb Memosel",
-    "project": "Projekt",
-    "project-links": "Projekti lingid",
-    "sponsor": "Toeta Memost",
-    "sponsor-note": "Toeta projekti GitHubis",
-    "web-clipper": "Web Clipper",
-    "web-clipper-platforms": "Chrome + Firefox"
+    "powered-by": "Põhineb Memosel"
   },
   "auth": {
     "create-your-account": "Looge oma konto",
@@ -163,7 +146,6 @@
     "update": "Värskenda",
     "user": "Kasutaja",
     "username": "Kasutajanimi",
-    "version": "Versioon",
     "visibility": "Nähtavus",
     "views": "Vaated",
     "yourself": "iseennast",

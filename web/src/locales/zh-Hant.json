@@ -1,24 +1,7 @@
 {
   "about": {
-    "api-docs": "API 文件",
-    "api-docs-note": "REST 與 gRPC 參考",
-    "build": "建置資訊",
     "demo": "示範",
-    "description": "一個開源、自架的空間，記錄你的筆記、靈感和日常思緒。",
-    "distribution": "發行版本",
-    "documents": "文件",
-    "documents-note": "部署、設定及使用 Memos",
-    "github-repository": "GitHub 儲存庫",
-    "github-repository-note": "原始碼、問題與版本發佈",
-    "official-website": "官方網站",
-    "official-website-note": "專案首頁",
-    "powered-by": "由 Memos 提供支援",
-    "project": "專案",
-    "project-links": "專案連結",
-    "sponsor": "贊助 Memos",
-    "sponsor-note": "在 GitHub 上支持專案",
-    "web-clipper": "網頁剪藏器",
-    "web-clipper-platforms": "Chrome + Firefox"
+    "powered-by": "由 Memos 提供支援"
   },
   "auth": {
     "admin-sign-in": "管理員登入",
@@ -210,7 +193,6 @@
     "update": "更新",
     "user": "使用者",
     "username": "帳號",
-    "version": "版本",
     "visibility": "瀏覽權限",
     "views": "檢視",
     "yourself": "您自己",

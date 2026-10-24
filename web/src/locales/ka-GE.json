@@ -1,24 +1,7 @@
 {
   "about": {
-    "documents": "დოკუმენტები",
-    "github-repository": "GitHub რეპოზიტორია",
-    "official-website": "ოფიციალური ვებგვერდი",
-    "api-docs": "API დოკუმენტები",
-    "api-docs-note": "REST და gRPC მითითება",
-    "build": "აწყობა",
     "demo": "დემო ვერსია",
-    "description": "ღია კოდის მქონე, საკუთარ სერვერზე განთავსებული სივრცე თქვენი ჩანაწერების, იდეებისა და ყოველდღიური ფიქრებისთვის.",
-    "distribution": "დისტრიბუცია",
-    "documents-note": "Memos-ის განლაგება, კონფიგურაცია და გამოყენება",
-    "github-repository-note": "წყარო, პრობლემები და გამოშვებები",
-    "official-website-note": "პროექტის მთავარი გვერდი",
-    "powered-by": "მხარდაჭერილია Memos-ის მიერ",
-    "project": "პროექტი",
-    "project-links": "პროექტის ბმულები",
-    "sponsor": "დააფინანსეთ Memos",
-    "sponsor-note": "მხარი დაუჭირეთ პროექტს GitHub-ზე",
-    "web-clipper": "Web Clipper",
-    "web-clipper-platforms": "Chrome + Firefox"
+    "powered-by": "მხარდაჭერილია Memos-ის მიერ"
   },
   "auth": {
     "create-your-account": "შექმენით თქვენი ანგარიში",
@@ -123,7 +106,6 @@
     "update": "განახლება",
     "user": "მომხმარებელი",
     "username": "მომხმარებლის სახელი",
-    "version": "ვერსია",
     "visibility": "ხილვადობა",
     "views": "ხედები",
     "yourself": "თქვენ",

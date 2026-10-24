@@ -1,24 +1,7 @@
 {
   "about": {
-    "documents": "Dokumenti",
-    "github-repository": "GitHub Repo",
-    "official-website": "Oficiālā vietne",
-    "api-docs": "API Dokumenti",
-    "api-docs-note": "REST un gRPC atsauce",
-    "build": "Izveidot",
     "demo": "Demonstrācija",
-    "description": "Atvērtā pirmkoda vieta jūsu serverī piezīmēm, idejām un ikdienas domām.",
-    "distribution": "Izplatīšana",
-    "documents-note": "Izvietošana, konfigurēšana un lietošana Memos",
-    "github-repository-note": "Avots, problēmas un laidieni",
-    "official-website-note": "Projekta sākumlapa",
-    "powered-by": "Darbojas ar Memos",
-    "project": "Projekts",
-    "project-links": "Projekta saites",
-    "sponsor": "Atbalstīt Memos",
-    "sponsor-note": "Atbalstiet projektu GitHub",
-    "web-clipper": "Web Clipper",
-    "web-clipper-platforms": "Chrome + Firefox"
+    "powered-by": "Darbojas ar Memos"
   },
   "auth": {
     "create-your-account": "Izveidojiet savu kontu",
@@ -163,7 +146,6 @@
     "update": "Atjaunināt",
     "user": "Lietotājs",
     "username": "Lietotājvārds",
-    "version": "Versija",
     "visibility": "Redzamība",
     "views": "Skati",
     "yourself": "sevi",
