@@ -3,6 +3,8 @@ services:
     build:
       context: ..
       dockerfile: scripts/Dockerfile.coolify
+      args:
+        SOURCE_COMMIT: ${SOURCE_COMMIT:?Enable Source commit availability during build in Coolify}
     restart: unless-stopped
     environment:
       MEMOS_DRIVER: sqlite

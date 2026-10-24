@@ -7,16 +7,18 @@
 ## Build the NemBestil fork in Coolify
 
 `Dockerfile.coolify` builds the frontend and backend directly from a Git checkout.
-Its adjacent `.dockerignore` includes frontend sources and Git metadata. Git is
-mounted read-only during compilation so Go embeds the commit and derives the
-development version; it is excluded from copied image layers. Build from a normal
-clone, not a source archive or linked Git worktree.
+Its adjacent `.dockerignore` includes frontend sources and excludes Git metadata.
+Coolify removes `.git` before building, so the image uses its `SOURCE_COMMIT` build
+argument and the UTC build date for `YY.MM.D-dev.<sha7>`. Unlike local Go builds,
+this date is the build date, not the commit date. An optional `VERSION` build
+argument can override the version when needed.
 
 The simplest option for the existing Coolify application is to keep its Dockerfile
 build strategy and change Dockerfile location to `/scripts/Dockerfile.coolify`.
 Keep base directory `/`, internal port `5230`, and the existing persistent storage
 mounted at `/var/opt/memos`. No `VERSION` or `COMMIT` variables are required.
 Use **Managed manually in Dockerfile** under Advanced > Build > Build arguments.
+Set Advanced > Build > Source commit availability to **Available during build**.
 See [Coolify's Dockerfile settings](https://coolify.io/docs/applications/builds/dockerfile).
 
 ### Optional Docker Compose setup
@@ -28,6 +30,7 @@ Use the existing Git source `NemBestil/memos`, branch `main`, with:
 - Compose location: `/scripts/compose.coolify.yaml`.
 - Raw deployment: disabled, so Coolify manages proxy routing.
 - Build arguments: **Managed manually in Dockerfile**.
+- Source commit availability: **Available during build**.
 - Domain: assign `https://log.nembestil.dev` to service `memos`, internal port `5230`.
 
 Set these Coolify variables:
@@ -48,15 +51,15 @@ See [Coolify's Compose settings](https://coolify.io/docs/applications/builds/doc
 
 ### Local verification
 
-From a normal clone at the repository root:
+From the repository root (Git is only used by the host to supply the commit):
 
 ```bash
-docker build -f scripts/Dockerfile.coolify -t memos-coolify:local .
+docker build -f scripts/Dockerfile.coolify --build-arg SOURCE_COMMIT="$(git rev-parse HEAD)" -t memos-coolify:local .
 docker run --rm memos-coolify:local version
 ```
 
 For Compose, set `MEMOS_VOLUME_NAME` to a disposable, pre-created Docker volume:
 
 ```bash
-MEMOS_VOLUME_NAME=memos-test docker compose -f scripts/compose.coolify.yaml config --quiet
+SOURCE_COMMIT="$(git rev-parse HEAD)" MEMOS_VOLUME_NAME=memos-test docker compose -f scripts/compose.coolify.yaml config --quiet
 ```

@@ -1,5 +1,6 @@
-# This overrides the root .dockerignore for Dockerfile.coolify. Both web/ and
-# .git/ must be available: the frontend is built here and Git supplies the version.
+# This overrides the root .dockerignore to include frontend sources. Coolify
+# supplies SOURCE_COMMIT as a build argument; Git metadata is not needed.
+/.git/
 /build/
 /bin/
 /tmp/

@@ -13,20 +13,24 @@ RUN cd web && pnpm release
 
 FROM --platform=$BUILDPLATFORM golang:1.27.2-alpine AS backend
 WORKDIR /backend-build
-RUN apk add --no-cache git ca-certificates
+RUN apk add --no-cache ca-certificates
 COPY go.mod go.sum ./
 RUN --mount=type=cache,target=/go/pkg/mod go mod download
-COPY --exclude=.git --exclude=web . .
+COPY --exclude=web . .
 COPY --from=frontend /frontend-build/server/frontend/dist ./server/frontend/dist
 
-# Git is mounted read-only for Go's commit-derived development version. It is
-# never copied into an image layer, and no manual VERSION build argument is needed.
-ARG TARGETOS TARGETARCH
-RUN --mount=type=bind,source=.git,target=.git \
-    --mount=type=cache,target=/go/pkg/mod \
+# Coolify removes .git before building. Stamp the source commit supplied by Coolify
+# and a UTC build-date development version, unless VERSION is explicitly supplied.
+ARG TARGETOS TARGETARCH SOURCE_COMMIT VERSION
+RUN --mount=type=cache,target=/go/pkg/mod \
     --mount=type=cache,target=/root/.cache/go-build \
+    : "${SOURCE_COMMIT:?Enable Source commit availability during build in Coolify}" && \
+    printf '%s' "$SOURCE_COMMIT" | grep -Eq '^[0-9a-f]{7,64}$' && \
+    build_date="$(date -u +%y.%m.%d | sed 's/\.0\([1-9]\)$/\.\1/')" && \
+    build_version="${VERSION:-${build_date}-dev.$(printf '%.7s' "$SOURCE_COMMIT")}" && \
     CGO_ENABLED=0 GOOS=$TARGETOS GOARCH=$TARGETARCH \
-    go build -buildvcs=true -trimpath -ldflags="-s -w" \
+    go build -buildvcs=false -trimpath \
+      -ldflags="-s -w -X github.com/usememos/memos/internal/version.Version=${build_version} -X github.com/usememos/memos/internal/version.Commit=${SOURCE_COMMIT}" \
       -tags netgo,osusergo -o memos ./cmd/memos
 
 FROM alpine:3.21 AS monolithic
